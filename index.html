@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--LINK DO P5-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <!--LINK DO P5 SOM-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.js" integrity="sha512-TU9AWtV5uUZPX8dbBAH8NQF1tSdigPRRT82vllAQ1Ke28puiqLA6ZVKxtUGlgrH6yWFnkKy+sE6luNEGH9ar0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--LINK DO ML5-->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+
+    <!--LINK DO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebê localizador
+    </title>
+</head>
+<body style="background-color: aquamarine;">
+    <center>
+    <h1>Localizador de bebês,mas é você que escolhe que objeto é o bebê</h1>
+    <h3>Você quer um site que, por exemplo, detecte um objeto e se não detectar toque um alarme?Que bom porque esse site é para você!Digite na caixa de texto um objeto(EM INGLÊS),clique no botão e se ele não aparecer um alarme irá tocar.</h3>
+    <input id ="c"><br>
+    <button class="btn btn-info" onclick="detect()">Detectar</button><br>
+    <span id="status"></span><span id="status2"></span><br>
+<span id="qdo"></span></center>
+    <script src="code.js"></script>
+    </body>
+</html>
